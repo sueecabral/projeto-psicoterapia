@@ -1,0 +1,211 @@
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    width: 50px;
+    margin-right: 15px;
+    margin-left: -40px;
+  }
+
+  #navbar-links a {
+    color: #FFF;
+    
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #65DAF9;
+  }
+
+  #banner-terapia{  
+   height: 100vh;
+   width: 100%;
+    
+  }
+
+  /*Sobre*/
+  .about-title{
+    text-align: center;
+  }
+  #img-sobre{
+    width: 500px;   
+    margin-top: 10px;
+  }
+
+  .sobre-paragrafo {
+    text-align: justify;
+  }
+
+  /*Serviços*/
+  #about-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+  }
+  
+  #about-list li {
+    line-height: 30px;
+  }
+  
+  #about-list i {
+    color: #65DAF9;  
+    font-size: 8px;
+    margin-right: 15px;
+  }
+
+/*Beneficios*/
+
+#beneficios{
+  position:relative;
+  background-color:#f0f3f0;
+  padding: 2%;
+  overflow: hidden;
+}
+
+#about-list-beneficios {
+  list-style: none;
+  padding-left: 0;
+  text-align: justify;
+}
+
+#about-list-beneficios li {
+  line-height: 30px;
+}
+
+#about-list-beneficios i {
+  color: #65DAF9;  
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+/*Contato*/
+  #contact-area {
+    text-align: center;
+  }
+  
+  #call-btn{
+    font-size: 14px;
+    text-align:center;
+  }
+
+  #call-btn:hover {
+      color: #3EC1D5;
+    }
+  
+  
+  .contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+  }
+  
+  .contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .fa-brands fa-whatsapp{
+
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-tile {
+    font-weight: bold;
+    color: #3EC1D5;
+  }
+  
+  #msg-box p {
+    font-size: 22px;
+  }
+  
+  #contact-form input[type="text"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+  
+  #contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+  }
+  
+  #contact-form .main-btn:hover {
+    color: #3EC1D5;
+  }
+
+  .main-btn {
+    font-weight: bold;
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #3EC1D5;
+  }
+
+  #paragrafo-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  #logo-whatsapp{
+    width: 80px;
+    height: 80px;
+  }
+  
+   @media screen and (max-width: 480px){
+
+  #logo{
+    margin-left: -18px;
+  }
+   
+  /* .banner-terapia{/*mexer no container
+       height: 50vh;
+    
+  } */
+
+  #img-sobre{
+    width: 450px ;
+  }
+
+  #logo-whatsapp{
+    width: 50px;
+    height: 50px;
+  }
+
+  #sobre-mim{
+
+    margin-top: 10px;
+
+  }
+}
+ 
