@@ -1,227 +1,277 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Juliana Medeiros - Psicologia</title>
-  </head>
-  <body>
-    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-light bg-light" style="z-index: 999;">
-        <div class="container-fluid col-11 m-auto">
-          <a class="navbar-brand" href="#index.html">
-            <img id="logo" src="imagens/Psicologia_logo.png" alt="Juliana Medeiros"> </a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Página inicial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sobre-mim">Sobre mim</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#servicos">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#beneficios">Benefícios da terapia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contato">Entre em Contato</a>
-              </li>
-            </div>
-          </ul> 
-        </div>
-      </nav>    
-      <!--Imagem principal-->     
-      <div class="container-fluid"> 
-        <img class="img-fluid w-100" id="banner-terapia" src="imagens/terapia_01.png">            
-      </div>   
-      <br>
-      <!--SOBRE-->         
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <img id="img-sobre" src="imagens/terapia_08.jpg" alt="Foto de Juliana Medeiros">
-          </div>
-          <div class="col-md-6">
-            <h3 class="about-title" id="sobre-mim">Sobre mim</h3>
-            <p class ="sobre-paragrafo">Meu nome é Juliana Mederios e sou uma psicóloga apaixonada  por ajudar as pessoas a navegarem pelos desafios da vida e descobrirem sua força interior.</p>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-              <p class="sobre-paragrafo"> Com uma abordagem compassiva e orientada para soluções, estou aqui para fornecer um espaço seguro e acolhedor onde você pode explorar seus pensamentos, sentimentos e preocupações. Meu objetivo é trabalhar em parceria com você para identificar e alcançar seus objetivos, promovendo o crescimento pessoal e o bem-estar emocional.</p>
-              
-              <p class ="sobre-paragrafo">Independentemente de quaisquer desafios que você esteja enfrentando, estou aqui para oferecer suporte, orientação e estratégias práticas para ajudá-lo a superar obstáculos e viver uma vida mais significativa e gratificante.</p>               
-          </div>
-        </div>
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>Juliana Medeiros - Psicologia</title>
+</head>
+
+<body>
+  <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-light bg-light" style="z-index: 999;">
+    <div class="container-fluid col-11 m-auto">
+      <a class="navbar-brand" href="#index.html">
+        <img id="logo" src="imagens/Psicologia_logo.png" alt="Juliana Medeiros"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Página inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beneficios">Benefícios da terapia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Entre em Contato</a>
+          </li>
       </div>
-  </div>   
-  <br>   
-      <!--CARDS-->      
-      <div class="col-12 d-flex justify-content-center" class="titulo-servicos" id="servicos"> <h3>Serviços psicoterapêuticos</h3></div>
-      <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
-        <div class="col">
-          <div class="card">
-            <img src="imagens/terapia_05.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Atendimento individual</h5>
-              <p class="card-text">
-                <ul id="about-list">
-                <li><i class="fa-solid fa-circle"></i></i>Cognitivo-Comportamental (TCC):</li>
-                O terapeuta trabalha com o cliente individualmente para identificar e modificar pensamentos disfuncionais e comportamentos indesejados.
-                Estratégias práticas são ensinadas para lidar com questões específicas, como ansiedade, depressão, traumas, entre outros.
-                <li><i class="fa-solid fa-circle"></i>Aconselhamento Psicológico:</li>                
-                Oferece suporte emocional e orientação a indivíduos que enfrentam desafios pessoais, profissionais ou emocionais.
-                Ajuda na resolução de conflitos interpessoais, tomada de decisões e desenvolvimento de habilidades de enfrentamento.
-                <li><i class="fa-solid fa-circle"></i>Terapia Psicodinâmica:</li>                
-                Explora questões profundas do inconsciente do cliente, incluindo padrões de relacionamento, traumas passados e conflitos não resolvidos.
-                Foco na autoconsciência, autorreflexão e entendimento das motivações internas.
-                </p>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="imagens/terapia_11.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Atendimento em grupo</h5>
-              <p class="card-text">
-                <ul id="about-list">
-                  <li><i class="fa-solid fa-circle"></i>Grupos de Terapia de Habilidades Sociais:</li>  
-                Terapeuta lidera um grupo de pessoas para desenvolver habilidades de comunicação, assertividade e resolução de conflitos.Os participantes praticam interações sociais em um ambiente de suporte e feedback.
-
-                <li><i class="fa-solid fa-circle"></i>Grupos de Apoio:</li>                
-                Reúnem indivíduos que compartilham experiências semelhantes, como perda, doença crônica ou vício.
-                Proporcionam um ambiente de compreensão, apoio mútuo e compartilhamento de estratégias de enfrentamento.
-                
-                <li><i class="fa-solid fa-circle"></i>Workshops Psicoeducacionais:</li>                
-                Oferecem informações e recursos sobre temas específicos de saúde mental, como manejo do estresse, mindfulness, autoestima, entre outros.
-                Promovem a conscientização e habilidades práticas para melhorar o bem-estar mental.             
-                </p>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="imagens/terapia_03.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Atendimento Presencial ou Remoto</h5>
-              <p class="card-text">
-                <ul id="about-list">
-                <li><i class="fa-solid fa-circle"></i>Atendimento presencial: </li>
-                Oferecemos uma conexão direta e pessoal. Possuímos um ambiente especialmente preparado para promover conforto e confidencialidade. Assim como um espaço seguro e privado para discussões sensíveis.
-
-                <li><i class="fa-solid fa-circle"></i> Atendimento Remoto:</li>
-                As sessões são realizadas através de plataformas de videochamada, e-mail, chat ou telefone.
-                Permite que os pacientes acessem serviços de terapia independentemente da localização geográfica.
-                Indicados também para pacientes que optem por fazer esse atendimento no conforto de suas próprias casas, proporcionando uma sensação de segurança e familiaridade.                
-              </ul>                
-                </p> 
-            </div>
-          </div>
-        </div>        
-      </div>    
-      <br>
-      <br>
-      <div class="container" id="beneficios">
+      </ul>
+    </div>
+  </nav>
+  <!--Imagem principal-->
+  <div class="container-fluid">
+    <img id="banner-terapia" src="imagens/terapia_20.png">
+    <div class="image-text">
+      <h4>Julia Medeiros</h4>
+      <h2>Psicoterapeuta CRP 99/9999</h2>
+    </div>
+  </div>
+  </div>
+  <br>
+  <!--SOBRE-->
+  <div class="container-fluid" id="container-sobre">
+     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img id="img-sobre" src="imagens/terapia_16.png" alt="Foto de Juliana Medeiros">
+          <img id="img-sobre" src="imagens/terapia_50.png" alt="Foto de Juliana Medeiros">
         </div>
         <div class="col-md-6">
-          <h3 class="about-title">Benefícios da Psicoterapia</h3>
-          <p class ="sobre-paragrafo">A psicoterapia oferece uma série de benefícios para a saúde mental e emocional das pessoas. Alguns dos principais benefícios incluem:</p>
-          <ul id="about-list-beneficios">
-            
-<li><i class="fas fa-check"></i>Autoconhecimento: A psicoterapia ajuda os indivíduos a entenderem melhor a si mesmos, seus pensamentos, emoções e comportamentos.</li>
+          <h3 class="about-title" id="sobre-mim">Sobre mim</h3>
+          <p class="sobre-paragrafo">Meu nome é Juliana Mederios e sou uma psicóloga apaixonada por ajudar as pessoas a
+            navegarem pelos desafios da vida e descobrirem sua força interior.</p>
 
-<li><i class="fas fa-check"></i>Desenvolvimento de habilidades: Durante o processo terapêutico, as pessoas aprendem habilidades de enfrentamento e técnicas para lidar com desafios emocionais e situações estressantes.</li>
+          <p class="sobre-paragrafo"> Com uma abordagem compassiva e orientada para soluções, estou aqui para fornecer
+            um espaço seguro e acolhedor onde você pode explorar seus pensamentos, sentimentos e preocupações. Meu
+            objetivo é trabalhar em parceria com você para identificar e alcançar seus objetivos, promovendo o
+            crescimento pessoal e o bem-estar emocional.</p>
 
-<li><i class="fas fa-check"></i>Redução de sintomas: Ajuda a aliviar sintomas de ansiedade, depressão, estresse e outros transtornos mentais, proporcionando alívio e melhora na qualidade de vida.</li>
+          <p class="sobre-paragrafo">Independentemente de quaisquer desafios que você esteja enfrentando, estou aqui
+            para oferecer suporte, orientação e estratégias práticas para ajudá-lo a superar obstáculos e viver uma vida
+            mais significativa e gratificante.</p>
 
-<li><i class="fas fa-check"></i>Melhorias nos relacionamentos: A terapia pode ajudar a melhorar a comunicação, resolver conflitos e fortalecer os laços interpessoais.</li>
+          <p class="sobre-paragrafo">Além disso, estou comprometida em manter uma abordagem holística em meu trabalho,
+            reconhecendo a interconexão entre mente e corpo. Acredito firmemente na importância de cuidar de
+            todos os aspectos do ser humano para alcançar um equilíbrio verdadeiro e duradouro.</p>
 
-<li><i class="fas fa-check"></i>Promoção do bem-estar geral: Contribui para o aumento da autoestima, resiliência emocional e sensação de bem-estar global.</li>
-
-<li><i class="fas fa-check"></i>Prevenção de recaídas: Para pessoas que passaram por crises emocionais ou transtornos mentais, a psicoterapia pode ajudar a prevenir recaídas e manter a estabilidade emocional a longo prazo.</li>
-          </ul>               
+            <p class="sobre-paragrafo">Juntos, podemos explorar caminhos para cultivar uma maior autoconsciência, resiliência e satisfação pessoal, capacitando-o a viver uma vida mais plena e autêntica.</p>
         </div>
       </div>
     </div>
   </div>
+</div>
+<br>
   <br>
-      <footer>
-        <div id="contact-area">
-          <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="col-6 m-auto text-center" class="main-title" id="contato">Entre em contato conosco</h3>
-                  <br>
-                </div>
-                <div class="col-md-4 contact-box">
-                  <i class="fas fa-phone"></i>
-                  <p><span class="contact-tile">Ligue para:</span> (81)99999-9999</p>
-                  <p><span class="contact-tile">Horários:</span> 8:00 - 18:00</p>
-                </div>
-                <div class="col-md-4 contact-box">
-                  <i class="fas fa-envelope"></i>
-                  <p><span class="contact-tile">Envie um email:</span> juliamedeirospsico@email.com.br</p>
-                  <br>
-                  <div class="col-6 m-auto text-center">
-                   <a href="https://outlook.live.com/mail/" target="_blank"> <button class="main-btn" id="call-btn">Agendar uma consulta</button></a>
-                  </div>
-                </div>
-                <div class="col-md-4 contact-box">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p><span class="contact-tile">Endereço:</span> Rua Lorem Ipsum - 1314, Recife-PE. </p>
-                  
-                </div>
-                <div class="col-md-6" id="msg-box">
-                  <p>Ou nos deixe uma mensagem:</p>
-                </div>
-                <div class="col-md-6" id="contact-form">
-                  <form action="">
-                    <input type="text" class="form-control" placeholder="E-mail" name="email">
-                    <input type="text" class="form-control" placeholder="Assunto" name="subject">
-                    <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-                    <input type="submit" class="main-btn">
-                  </form>
-                </div>
-              </div>
+  <!--CARDS-->
+  <div class="container-fluid" id="card-container">
+    <div class="col-12 d-flex justify-content-center" class="titulo-servicos" id="servicos">
+      <h3>Serviços psicoterapêuticos</h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+      <div class="col">
+        <div class="card">
+          <img src="imagens/terapia_05.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Atendimento individual</h5>
+            <p class="card-text">
+            <ul id="about-list">
+              <li><i class="fa-solid fa-circle"></i></i>Cognitivo-Comportamental (TCC):</li>
+              O terapeuta trabalha com o cliente individualmente para identificar e modificar pensamentos disfuncionais
+              e comportamentos indesejados.
+              Estratégias práticas são ensinadas para lidar com questões específicas, como ansiedade, depressão,
+              traumas, entre outros.
+              <li><i class="fa-solid fa-circle"></i>Aconselhamento Psicológico:</li>
+              Oferece suporte emocional e orientação a indivíduos que enfrentam desafios pessoais, profissionais ou
+              emocionais. Ajuda na resolução de conflitos interpessoais.
+              <!-- Ajuda na resolução de conflitos interpessoais, tomada de decisões e desenvolvimento de habilidades de enfrentamento. -->
+              <!-- <li><i class="fa-solid fa-circle"></i>Terapia Psicodinâmica:</li>
+                Explora questões profundas do inconsciente do cliente, incluindo padrões de relacionamento, traumas passados e conflitos não resolvidos.
+                Foco na autoconsciência, autorreflexão e entendimento das motivações internas. -->
+              </p>
+            </ul>
           </div>
-        </div>   
-        <br>
-      <div style="background-color:#f0f3f0;" class="page-footer font-small blue p-3">
-          <div class="d-flex" >
-            <div class="p-2 w-100 bd-highlight"><p id="paragrafo-footer">
-              Juliana Medeiros &copy; Terapeuta Comportamental - Todos os direitos reservados</p></div>
-              <div class="p-2 flex-shrink-1 bd-highlight"> 
-               <a href="https://web.whatsapp.com/" target="_blank"> <img id="logo-whatsapp" src="imagens/logo_wpp.png" alt="logo whatsapp"></a></div>             
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="imagens/terapia_11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Atendimento em grupo</h5>
+            <p class="card-text">
+            <ul id="about-list">
+              <li><i class="fa-solid fa-circle"></i>Grupos de Terapia de Habilidades Sociais:</li>
+              Terapeuta lidera um grupo de pessoas para desenvolver habilidades de comunicação, assertividade e
+              resolução de conflitos.Os participantes praticam interações sociais em um ambiente de suporte e feedback.
+
+              <li><i class="fa-solid fa-circle"></i>Grupos de Apoio:</li>
+              Reúnem indivíduos que compartilham experiências semelhantes, como perda, doença crônica ou vício.
+              Proporcionam um ambiente de compreensão, apoio mútuo e compartilhamento de estratégias de enfrentamento.
+              <!-- <li><i class="fa-solid fa-circle"></i>Workshops Psicoeducacionais:</li>
+                Oferecem informações e recursos sobre temas específicos de saúde mental, como manejo do estresse, mindfulness, autoestima, entre outros.
+                Promovem a conscientização e habilidades práticas para melhorar o bem-estar mental.              -->
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="imagens/terapia_03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Atendimento Presencial ou Remoto</h5>
+            <p class="card-text">
+            <ul id="about-list">
+              <li><i class="fa-solid fa-circle"></i>Atendimento presencial: </li>
+              Oferecemos uma conexão direta e pessoal. Possuímos um ambiente especialmente preparado para promover
+              conforto e confidencialidade. Assim como um espaço seguro e privado para discussões sensíveis.
+
+              <li><i class="fa-solid fa-circle"></i> Atendimento Remoto:</li>
+              As sessões são realizadas através de plataformas de videochamada, e-mail, chat ou telefone.
+              Permite que os pacientes acessem serviços de terapia independentemente da localização geográfica.
+              <!-- Indicados também para pacientes que optem por fazer esse atendimento no conforto de suas próprias casas, proporcionando uma sensação de segurança e familiaridade.                 -->
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="beneficios">
+    <div class="row">
+      <div class="col-md-6">
+        <img id="img-beneficios" src="imagens/terapia_70.png" alt="Foto de jovens sorrindo">
+      </div>
+      <div class="col-md-6">
+        <h3 class="about-title">Benefícios da Psicoterapia</h3>
+        <p class="sobre-paragrafo">A psicoterapia oferece uma série de benefícios para a saúde mental e emocional das
+          pessoas. Alguns dos principais benefícios incluem:</p>
+        <ul id="about-list-beneficios">
+
+          <li><i class="fas fa-check"></i>Autoconhecimento: A psicoterapia ajuda os indivíduos a entenderem melhor a si
+            mesmos, seus pensamentos, emoções e comportamentos.</li>
+
+          <li><i class="fas fa-check"></i>Desenvolvimento de habilidades: Durante o processo terapêutico, as pessoas
+            aprendem habilidades de enfrentamento e técnicas para lidar com desafios emocionais e situações
+            estressantes.</li>
+
+          <li><i class="fas fa-check"></i>Redução de sintomas: Ajuda a aliviar sintomas de ansiedade, depressão,
+            estresse e outros transtornos mentais, proporcionando alívio e melhora na qualidade de vida.</li>
+
+          <li><i class="fas fa-check"></i>Melhorias nos relacionamentos: A terapia pode ajudar a melhorar a comunicação,
+            resolver conflitos e fortalecer os laços interpessoais.</li>
+
+          <li><i class="fas fa-check"></i>Promoção do bem-estar geral: Contribui para o aumento da autoestima,
+            resiliência emocional e sensação de bem-estar global.</li>
+
+          <li><i class="fas fa-check"></i>Prevenção de recaídas: Para pessoas que passaram por crises emocionais ou
+            transtornos mentais, a psicoterapia pode ajudar a prevenir recaídas e manter a estabilidade emocional a
+            longo prazo.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div id="contact-area">
+      <div class="container-fluid" id="footer-tudo">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="col-6 m-auto text-center" class="main-title" id="contato">Entre em contato conosco</h3>
+            <br>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-tile">Ligue para:</span> (81)99999-9999</p>
+            <p><span class="contact-tile">Horários:</span> 8:00 - 18:00</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-tile">Envie um email:</span> juliamedeirospsico@email.com.br</p>
+            <br>
+            <div class="col-6 m-auto text-center">
+              <a href="https://outlook.live.com/mail/" target="_blank"> <button class="main-btn" id="call-btn">Agendar
+                  uma consulta</button></a>
             </div>
-          </div>          
-        </div>               
-       </div>        
-      </footer>     
-      
-    <!--Bootstrap Js-->   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-    <!--Font awesome-->    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-  </body>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-tile">Endereço:</span> Rua das flores - 0000, Recife-PE.</p>
+          </div>
+          <div class="col-md-6" id="msg-box">
+            <p>Ou nos deixe uma mensagem:</p>
+          </div>
+          <div class="col-md-6" id="contact-form">
+            <form action="">
+              <input type="text" class="form-control" placeholder="E-mail" name="email">
+              <input type="text" class="form-control" placeholder="Assunto" name="subject">
+              <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+              <input type="submit" class="main-btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div style="background-color:#f0f3f0;" class="page-footer font-small blue p-3" id="footer-barra">
+      <div class="d-flex">
+        <div class="p-2 w-100 bd-highlight">
+          <p id="paragrafo-footer">
+            Juliana Medeiros &copy; Terapeuta Comportamental - Todos os direitos reservados</p>
+        </div>
+        <div class="p-2 flex-shrink-1 bd-highlight">
+          <a href="https://web.whatsapp.com/" target="_blank"> <img id="logo-whatsapp" src="imagens/logo_wpp.png"
+              alt="logo whatsapp"></a>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </footer>
+
+  <!--Bootstrap Js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</body>
+
 </html>
 
 <!--
+  Tentar colocar todas as imagens container-fluid??
+  no mobile a pagina esta com espaço lateral
   Falta deixar mais responsivo
   Falta ajustar contato
-  o espaço sobre mim 
+  o espaço sobre mim
   o espço sobre beneficios
   ver css de tudo
 
