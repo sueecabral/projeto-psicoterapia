@@ -248,8 +248,9 @@ html, body{
     
   }
   #img-sobre{
-   width: 400px;
-   height: 442px;  
+   margin-top:60px;
+   width: 350px;
+   height: 392px;  
   }
 
   .sobre-titulo{
