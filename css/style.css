@@ -15,9 +15,8 @@ html, body{
     margin-left: -40px;
   }
 
-  #navbar-links a {
-    color: #FFF;
-    
+  /* #navbar-links a {
+    color: #FFF;    
   }
   
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -26,27 +25,37 @@ html, body{
   
   .nav-item.active {
     border-bottom: 3px solid #65DAF9;
+  } */
+   /*Pagina inicial*/
+
+   #pagina-inicial{
+    background-color: #f0f3f0;
+   }  
+
+  #paragrafo-inicial {
+    padding-top: 8%;
+    text-align: center;    
+  }
+
+  #paragrafo-inicial h3 {
+    text-align: center; 
   }
 
   /*Sobre*/
   .sobre-titulo{
     text-align: center;
-    margin-top: 15%;    
-  }
-  #img-sobre{
-   width: 600px;
-   height: 400px;  
-   display: block;
-   margin: auto;
-   margin-top: 10%; 
-   border-radius: 5%;  
-    
   }
 
+  #img-sobre{
+   width: 550px;
+   height: 367px;  
+   display: block;
+   margin: auto;
+   border-radius: 5%;   
+  }
   .sobre-paragrafo {
     text-align: justify;
     width: auto;  
-    
   }
 
   /*Serviços*/
@@ -72,7 +81,7 @@ html, body{
 /*Beneficios*/
 
 .sobre-beneficios{
-  margin-top: 10%;
+  margin-top: 2%;
   text-align: center;
 }
 
@@ -201,27 +210,11 @@ html, body{
   #logo{
     margin-left:-8px;
   }
-   .image-text{
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: white;
-    font-size: 8px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .image-text h4{
-    font-size: 25px;
-  }
-  .image-text h2{
-    font-size: 15px;
-    
+  #paragrafo-inicial{
+    padding-top:20%;
   }
   #img-sobre{
-   margin-top:60px;
+   /* margin-top:60px; */
    width: 320px;
    height: 203px;   
   }
