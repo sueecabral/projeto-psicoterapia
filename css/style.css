@@ -14,20 +14,12 @@ html, body{
     margin-right: 15px;
     margin-left: -40px;
   }
-
-  /* #navbar-links a {
-    color: #FFF;    
-  }
   
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
   }
   
-  .nav-item.active {
-    border-bottom: 3px solid #65DAF9;
-  } */
    /*Pagina inicial*/
-
    #pagina-inicial{
     background-color: #f0f3f0;
    }  
@@ -127,8 +119,7 @@ html, body{
 
   #call-btn:hover {
       color: #3EC1D5;
-    }
-  
+    }  
   
   .contact-box {
     padding-bottom: 50px;
@@ -217,7 +208,6 @@ html, body{
     font-size: px;
   }
   #img-sobre{
-   /* margin-top:60px; */
    width: 320px;
    height: 203px;   
   }
